@@ -3,7 +3,7 @@ import 'package:flutter_facade_transfer/features/accounts/infrastructure/fakes/f
 
 import '../domain/accounts_repository.dart';
 
-class AccountsMockApi implements AccountsRepository{
+class AccountsFakeApi implements AccountsRepository{
   @override
   Future<List<AccountModel>> getAccounts() async{
     return fakeAccounts;
